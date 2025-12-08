@@ -51,15 +51,33 @@ li{
 }
 .container2{
     display: grid;
-    grid-template-rows: 200px;
-    grid-column: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 40px 0px;
 }
 .opdracht1{
-    position: absolute;
-    width: 25%;
-    left: 20px;
+    grid-column: 2/5;
     background-color: #a55b5b;
     border-radius: 16px;
     padding: 5px;
-    box-shadow: 10px 20px #2a1313;
+    box-shadow: 0px 20px #2a1313;
+}
+img{
+    height: 350px;
+    width: 400px;
+    border-radius: 16px;
+}
+.image1{
+    margin: 10px;
+    grid-row: 2;
+    grid-column: 1/2;
+}
+.image2{
+    margin: 10px;
+    grid-row: 2;
+    grid-column: 3/4;
+}
+.image3{
+    margin: 10px;
+    grid-row: 2;
+    grid-column: 5/6;
 }
