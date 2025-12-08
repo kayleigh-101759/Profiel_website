@@ -20,34 +20,30 @@ li{
 }
 .container{
     display: grid;
-    grid-template-rows: 600px;
-    grid-column: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .motivatie{
-    position: absolute;
-    width: 45%;
-    left: 20px;
-    top: 20px;
+    margin: 20px;
+    grid-row: 1/3;
+    grid-column: 1/3;
     background-color: #a55b5b;
     border-radius: 16px;
     padding: 5px;
     box-shadow: 10px 20px #2a1313;
 }
 .over_mij{
-    position: absolute;
-    width: 45%;
-    right: 20px;
-    top: 100px;
+    margin: 20px;
+    grid-row: 2/5;
+    grid-column: 3/5;
     background-color: #a55b5b;
     border-radius: 16px;
     padding: 5px;
     box-shadow: -10px 20px #2a1313;
 }
 .scholen{
-    position: absolute;
-    width: 25%;
-    left: 50px;
-    top: 350px;
+    margin-top: 20px;
+    margin-left: 50px;
+    grid-row: 3;
     background-color: #a55b5b;
     border-radius: 16px;
     padding: 5px;
@@ -56,9 +52,12 @@ li{
 .container2{
     display: grid;
     grid-template-rows: 200px;
-    grid-column: 1fr 1fr 1fr;
+    grid-column: 1fr;
 }
 .opdracht1{
+    position: absolute;
+    width: 25%;
+    left: 20px;
     background-color: #a55b5b;
     border-radius: 16px;
     padding: 5px;
