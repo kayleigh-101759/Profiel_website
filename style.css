@@ -108,8 +108,6 @@ img{
 }
 .talen{
     grid-column: 2/2;
-    margin-top: 20px;
-    margin-left: 50px;
     background-color: #a55b5b;
     border-radius: 16px;
     padding: 5px;
@@ -134,4 +132,51 @@ img{
 .orange:hover{
     color: orange;
     text-shadow: 1px 1px 1px orangered;
+}
+.uitleg-groen{
+    grid-column: 1/2;
+    grid-row: 1;
+    margin-left: 20px;
+}
+.uitleg-orange{
+    grid-column: 3/4;
+    grid-row: 1;
+    margin-left: 20px;
+}
+.container5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+#skill-1{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 3;
+    background-color: #a55b5b;
+    border-radius: 16px;
+    padding: 5px;
+}
+#skill-2{
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 3;
+    background-color: #a55b5b;
+    border-radius: 16px;
+    padding: 5px;
+}
+#skill-3{
+    text-align: center;
+    grid-column: 4/5;
+    grid-row: 3;
+    background-color: #a55b5b;
+    border-radius: 16px;
+    padding: 5px;
+}
+#skill-4{
+    text-align: center;
+    grid-column: 3/5;
+    grid-row: 2;
+    background-color: #a55b5b;
+    border-radius: 16px;
+    padding: 5px;
 }
