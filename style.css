@@ -10,7 +10,6 @@ h1{
 }
 p{
     color: #EECB1D;
-    font-size: 24px;
     text-shadow: 1px 1px 1px black;
 }
 li{
@@ -21,6 +20,7 @@ li{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 24px;
 }
 .motivatie{
     margin: 20px;
@@ -33,7 +33,7 @@ li{
 }
 .over_mij{
     margin: 20px;
-    grid-row: 2/5;
+    grid-row: 2/4;
     grid-column: 3/5;
     background-color: #a55b5b;
     border-radius: 16px;
@@ -41,9 +41,10 @@ li{
     box-shadow: -10px 20px #2a1313;
 }
 .scholen{
-    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
     margin-left: 50px;
-    grid-row: 3;
+    grid-column: 2/3;
     background-color: #a55b5b;
     border-radius: 16px;
     padding: 5px;
@@ -53,9 +54,10 @@ li{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 40px 0px;
+    font-size: 24px;
 }
 .opdracht1{
-    grid-column: 2/5;
+    grid-column: 1/4;
     background-color: #a55b5b;
     border-radius: 16px;
     padding: 5px;
@@ -85,6 +87,7 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 40px 0px;
+    font-size: 24px;
 }
 .opdracht2{
     grid-column: 1/4;
@@ -93,25 +96,29 @@ img{
     border-radius: 16px;
     padding: 5px;
     box-shadow: 10px 20px #2a1313;
+    margin-left: 20px;
 }
 .image4{
     margin: 10px;
-    grid-column: 1/2;
+    grid-column: 2/3;
 }
 .image5{
     margin: 10px;
-    grid-column: 2/3;
+    grid-column: 3/4;
 }
 .container4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    font-size: 24px;
 }
 .talen{
-    grid-column: 2/2;
+    margin-top: 10px;
+    grid-column: 1/1;
     background-color: #a55b5b;
     border-radius: 16px;
     padding: 5px;
     box-shadow: 10px 20px #2a1313;
+    margin-left: 30px;
 }
 .green{
     color: #EECB1D;
@@ -145,38 +152,44 @@ img{
 }
 .container5{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 120px 120px 120px;
+    grid-gap: 5px;
+    font-size: 30px;
 }
 #skill-1{
-    text-align: center;
-    grid-column: 2/3;
+    grid-column: 3/5;
     grid-row: 3;
-    background-color: #a55b5b;
-    border-radius: 16px;
-    padding: 5px;
 }
 #skill-2{
-    text-align: center;
-    grid-column: 3/4;
+    grid-column: 5/7;
     grid-row: 3;
-    background-color: #a55b5b;
-    border-radius: 16px;
-    padding: 5px;
 }
 #skill-3{
-    text-align: center;
-    grid-column: 4/5;
+
+    grid-column: 7/9;
     grid-row: 3;
-    background-color: #a55b5b;
-    border-radius: 16px;
-    padding: 5px;
 }
 #skill-4{
-    text-align: center;
-    grid-column: 3/5;
+    grid-column: 6/8;
     grid-row: 2;
+}
+#skill-5{
+    grid-column: 4/6;
+    grid-row: 2;
+}
+#skill-6{
+    grid-column: 5/7;
+    grid-row: 1;
+}
+.skill{
+    text-align: center;
     background-color: #a55b5b;
     border-radius: 16px;
-    padding: 5px;
+    padding: 20px;
+    transition: 0.2s;
+}
+.skill:hover{
+    background-color: #ce7373;
+    box-shadow: 10px 10px #2a1313;
 }
