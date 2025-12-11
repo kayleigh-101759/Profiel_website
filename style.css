@@ -64,7 +64,7 @@ header p{
     background-color: #a55b5b;
     border-radius: 16px;
     padding: 5px;
-    box-shadow: 5px 10px #2a1313;
+    box-shadow: -10px 20px #2a1313;
 }
 .container2{
     display: grid;
@@ -173,6 +173,7 @@ img{
     grid-gap: 5px;
     font-size: 30px;
 }
+
 #skill-1{
     grid-column: 3/5;
     grid-row: 3;
@@ -207,5 +208,17 @@ img{
 }
 .skill:hover{
     background-color: #ce7373;
-    box-shadow: 10px 10px #2a1313;
+}
+#text{
+    margin-left: 40px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+footer {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 20px;
 }
