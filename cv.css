@@ -1,0 +1,14 @@
+body{
+    background-color: #3E2424;
+    margin: 0px;
+    padding: 0;
+}
+h1{
+    color: #EECB1D;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px black;
+}
+img{
+    height: 200px;
+    width: 100px;
+}
