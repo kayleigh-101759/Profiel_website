@@ -9,6 +9,19 @@ h1{
     text-shadow: 1px 1px 1px black;
 }
 img{
-    height: 200px;
-    width: 100px;
+    margin-top: 20px;
+    height: 1000px;
+    width: 700px;
+}
+.terug{
+    text-align: center;
+    background-color: #C36666;
+}
+a{
+    color: #EECB1D;
+    text-shadow: 1px 1px 1px black;
+    font-size: 24px;
+}
+.image{
+    text-align: center;
 }
