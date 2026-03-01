@@ -62,7 +62,7 @@ header p{
     box-shadow: -10px 20px #2a1313;
 }
 .scholen{
-    margin-bottom: 100px;
+    margin-bottom: auto;
     margin-top: 50px;
     margin-left: 50px;
     grid-column: 2/3;

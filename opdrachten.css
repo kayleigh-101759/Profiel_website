@@ -4,21 +4,48 @@ body{
     padding: 0;
 }
 p{
+    margin-left: 20px;
     color: #EECB1D;
     text-shadow: 1px 1px 1px black;
-    font-size: 20px;
+    font-size: 22px;
 }
 img{
+    margin-left: 20px;
     border-radius: 26px;
     height: 350px;
     width: 400px;
 }
 .terug{
+    
     text-align: center;
     background-color: #C36666;
 }
 a{
+    margin-left: 20px;
     color: #EECB1D;
     text-shadow: 1px 1px 1px black;
     font-size: 24px;
+}
+summary{
+    width: 20%;
+    border-radius: 16px;
+    background-color: #a55b5b;
+    color: #EECB1D;
+    text-shadow: 1px 1px 1px black;
+    font-size: 24px;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+summary:hover{
+    background-color: #ce7373;
+}
+
+details{
+    margin-left: 25px;
+    border-radius: 16px;
+    height: auto;
+    width: 90%;
+}
+details[open] {
+  background-color: #a55b5b;
 }
