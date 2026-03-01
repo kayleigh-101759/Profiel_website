@@ -1,0 +1,24 @@
+body{
+    background-color: #3E2424;
+    margin: 0px;
+    padding: 0;
+}
+p{
+    color: #EECB1D;
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+}
+img{
+    border-radius: 26px;
+    height: 350px;
+    width: 400px;
+}
+.terug{
+    text-align: center;
+    background-color: #C36666;
+}
+a{
+    color: #EECB1D;
+    text-shadow: 1px 1px 1px black;
+    font-size: 24px;
+}
