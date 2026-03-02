@@ -12,8 +12,8 @@ p{
 img{
     margin-left: 20px;
     border-radius: 26px;
-    height: 350px;
-    width: 400px;
+    height: 250px;
+    width: 300px;
 }
 .terug{
     
@@ -44,7 +44,7 @@ details{
     margin-left: 25px;
     border-radius: 16px;
     height: auto;
-    width: 90%;
+    width: 85%;
 }
 details[open] {
   background-color: #a55b5b;
