@@ -232,3 +232,10 @@ footer {
 .github{
     margin-left: 20px;
 }
+.werk{
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 16px;
+    padding: 10px 10px;
+
+}
