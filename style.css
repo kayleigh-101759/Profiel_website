@@ -1,33 +1,38 @@
 body{
-    background-color: #3E2424;
+    background-color: rgb(20, 18, 28);
     margin: 0px;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida 
 }
 h1{
-    color: #EECB1D;
+    color: whitesmoke;
     font-size: 32px;
     text-shadow: 1px 1px 1px black;
 }
 p{
-    color: #EECB1D;
+    color: whitesmoke;
     text-shadow: 1px 1px 1px black;
 }
 a{
-    color: #EECB1D;
+    color: whitesmoke;
     text-shadow: 1px 1px 1px black;
     font-size: 24px;
+    transition: 0.2s;
+}
+a:hover{
+    color: rgb(164, 192, 253);
 }
 li{
-    color: #EECB1D;
+    color: whitesmoke;
     font-size: 24px;
     text-shadow: 1px 1px 1px black;
 }
 header{
     margin-top: 5px;
-    color: gold;
+    color: whitesmoke;
     font-size: 42px;
     text-align: center;
-    text-shadow: 2px 2px 2px black;
+
 }
 header p{
     font-size: 20px;
@@ -38,38 +43,45 @@ header p{
     font-size: 24px;
 }
 .motivatie{
-    margin: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     grid-row: 1/3;
     grid-column: 1/3;
-    background-color: #C36666;
+    background-color: rgba(113, 157, 192, 0.504);
     border-radius: 16px;
-    padding: 5px;
-    box-shadow: 10px 20px #2a1313;
+    padding: 10px;
+
 }
-.motivatie p{
-    color: gold;
-}
+
 .motivatie h1{
-    color: gold;
+    color: whitesmoke;
 }
 .over_mij{
     margin: 20px;
     grid-row: 2/4;
     grid-column: 3/5;
-    background-color: #a55b5b;
+    background-color: rgba(113, 157, 192, 0.233);
     border-radius: 16px;
-    padding: 5px;
-    box-shadow: -10px 20px #2a1313;
+    padding: 10px;
+
 }
 .scholen{
     margin-bottom: auto;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 50px;
     grid-column: 2/3;
-    background-color: #a55b5b;
+    background-color: rgba(113, 157, 192, 0.219);
     border-radius: 16px;
     padding: 5px;
-    box-shadow: -10px 20px #2a1313;
+}
+.skills{
+    color: whitesmoke;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px black;
+    transition: 0.2s;
+}
+.skills:hover{
+    color: rgb(164, 192, 253);
 }
 .container2{
     display: grid;
@@ -80,16 +92,16 @@ header p{
 .opdracht1{
     margin-left: 20px;
     grid-column: 1/4;
-    background-color: #a55b5b;
+    background-color: rgba(113, 157, 192, 0.233);
     border-radius: 16px;
-    padding: 5px;
-    box-shadow: 10px 20px #2a1313;
+    padding: 10px;
+
 }
 img{
     height: 350px;
     width: 420px;
     border-radius: 16px;
-    box-shadow: 10px 20px #2a1313;
+
 }
 .image1{
     margin: 10px;
@@ -112,15 +124,6 @@ img{
     grid-gap: 40px 0px;
     font-size: 24px;
 }
-.opdracht2{
-    grid-column: 1/4;
-    grid-row: 1/3;
-    background-color: #a55b5b;
-    border-radius: 16px;
-    padding: 5px;
-    box-shadow: 10px 20px #2a1313;
-    margin-left: 20px;
-}
 .image4{
     margin: 10px;
     grid-column: 2/3;
@@ -137,14 +140,13 @@ img{
 .talen{
     margin-top: 10px;
     grid-column: 1/1;
-    background-color: #a55b5b;
+    background-color: rgba(113, 157, 192, 0.504);
     border-radius: 16px;
     padding: 5px;
-    box-shadow: 10px 20px #2a1313;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .green{
-    color: #EECB1D;
+    color: whitesmoke;
     font-size: 24px;
     text-shadow: 1px 1px 1px black;
     transition: 0.2s;
@@ -154,7 +156,7 @@ img{
     text-shadow: 1px 1px 1px green;
 }
 .orange{
-    color: #EECB1D;
+    color: whitesmoke;
     font-size: 24px;
     text-shadow: 1px 1px 1px black;
     transition: 0.2s;
@@ -208,13 +210,13 @@ img{
 }
 .skill{
     text-align: center;
-    background-color: #a55b5b;
+    background-color: rgba(113, 157, 192, 0.504);
     border-radius: 16px;
     padding: 20px;
     transition: 0.2s;
 }
 .skill:hover{
-    background-color: #ce7373;
+    background-color: rgba(105, 156, 197, 0.715);
 }
 #text{
     margin-left: 40px;
@@ -233,9 +235,17 @@ footer {
     margin-left: 20px;
 }
 .werk{
-    text-decoration: none;
-    margin-left: 20px;
-    border-radius: 16px;
-    padding: 10px 10px;
+    height: 100%;
+    text-align: center;
+}
 
+#werk{
+    background-color: rgba(113, 157, 192, 0.504);
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 5px 30px;
+    transition: 0.2s;
+}
+#werk:hover{
+    background-color: rgba(105, 156, 197, 0.715);
 }
