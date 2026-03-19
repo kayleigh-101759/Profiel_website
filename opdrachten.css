@@ -10,6 +10,12 @@ p{
     text-shadow: 1px 1px 1px black;
     font-size: 22px;
 }
+li{
+    margin-left: 40px;
+    color: whitesmoke;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px black;
+}
 img{
     margin-left: 20px;
     border-radius: 26px;
